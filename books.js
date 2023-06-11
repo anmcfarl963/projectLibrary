@@ -7,7 +7,7 @@ class Book {
     this.pages = pages;
     this.read = read;
 }
-
+}
 Book.prototype.toggleRead = function() {
     this.read = !this.read;
 }
